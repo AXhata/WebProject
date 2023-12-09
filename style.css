@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color:inherit
 }
 
 ul {
@@ -22,14 +23,13 @@ ul {
     padding: 20px;
     color: rgb(90, 88, 88);
 }
-
 .nav-links {
     display: flex;
     align-items: center;
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 header {
@@ -44,13 +44,13 @@ header {
 }
 
 .header-content {
+    margin-top: 250px;
     text-align: center;
 }
 
 .header-content h2 {
     font-size: 4vmin;
 }
-
 .line {
     width: 150px;
     height: 4px;
@@ -66,10 +66,11 @@ header {
 }
 
 .ctn {
+    
     padding: 8px 15px;
     background: #fc036b;
     border-radius: 30px;
-    color: whitesmoke;
+    color: black;
 }
 
 .menu-btn {

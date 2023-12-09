@@ -215,7 +215,7 @@ p {
 
 .col img {
     width: 100%;
-    height: 272px;
+    height: auto;
     object-fit: cover;
 }
 

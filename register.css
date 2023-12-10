@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(90, 88, 88);
+}
+
+.navbar img {
+    /* Style for the logo image within the navbar */
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: black;
+    margin-top: 10px;
+}
+
+.ctn a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info,
+.logo,
+.social-media {
+    flex: 1;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.logo {
+    text-align: center;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+/*stilimi per register form*/
+
+body {
+    min-height: 95vh;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 62px;
+}
+
+
+.register-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.forma {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 30px rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.forma h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+
+.forma .inputet {
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.forma .inputet input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+input::placeholder {
+    color: #fff;
+}
+
+.butoni {
+    color: #fff;
+    background: #fc036b;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, .5);
+}
+
+.grupi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.teksti-linkut {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.linku {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.linku:hover {
+    color: #fc036b;
+    text-decoration: none;
+}
+
+#result {
+    color: rgb(255, 254, 254);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 25px;
+}
+
+.popup {
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s, top 0.4s;
+    visibility: hidden;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    z-index: 999;
+}
+.popup ion-icon {
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.popup p {
+    margin: 10px 0;
+}
+
+.popup button {
+    width: 100%;
+    background: #fc036b;
+    padding: 12px 0;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.popup a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 650;
+    letter-spacing: 2px;
+}
+
+.open-slide {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+

@@ -288,7 +288,7 @@ p {
     position: static;
     
 }
-form{
+form{ /* FORMA E KONTAKTIT */
     max-width: 550px;
     width: 90%;
     background-color: white;
@@ -343,8 +343,6 @@ input[type="sybmit"]{
 #success{
     color: green;
 }
-
-
 
 @media only screen and (max-width: 850px) {
     .menu-btn {

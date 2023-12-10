@@ -1,4 +1,4 @@
-//maarrim te dhena
+
 const nameInput = document.querySelector("#name");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
@@ -25,7 +25,7 @@ function validateForm() {
         errorFlag = true;
     }
     if (!errorFlag) {
-        success.innerText = "Success!";
+        success.innerText = "Mesazhi u dergua me sukses";
     }
 }
 

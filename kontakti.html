@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
+    <nav class="navbar">
+        <img src="images/logo.jpg" alt="logo" style="width: 100px; height:100px;">
+        <ul class="nav-links">
+            <li><a href="index.html"><b>Ballina</b></a></li>
+            <li><a href="destinacionet.html"><b>Destinacionet</b></a></li>
+            <li><a href="kontakti.html"><b>Kontakti</b></a></li>
+            <li class="ctn"><a href="register.html"><b>Kyçu | Regjistrohu</b></a></li>
+        </ul>
+        <img src="images/nyc.jpg" alt="" class="menu-btn">
+    </nav>
     <header>
-        <nav class="navbar">
-            <img src="images/logo.jpg" alt="logo" style="width: 100px; height: 100px;">
-            <ul class="nav-links">
-                <li><a href="index.html">Ballina</a></li>
-                <li><a href="destinacionet.html">Destinacionet</a></li>
-                <li><a href="kontakti.html">Kontakti</a></li>
-                <li class="ctn"><a href="login.html">Kyçu | Regjistrohu</a></li>
-            </ul>
-        </nav>
-
         <div id="overlay">
             <form onsubmit="event.preventDefault(); validateForm();">
                 <h1>Na Kontaktoni</h1>
@@ -72,6 +71,6 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script src="kontakti.js"></script>
 </body>
 </html>

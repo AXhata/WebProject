@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regjistrohu</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="images/logo.jpg" alt="logo" style="width: 100px; height:100px;">
+        <ul class="nav-links">
+            <li><a href="index.html"><b>Ballina</b></a></li>
+            <li><a href="destinacionet.html"><b>Destinacionet</b></a></li>
+            <li><a href="kontakti.html"><b>Kontakti</b></a></li>
+            <li class="ctn"><a href="register.html"><b>Kyçu | Regjistrohu</b></a></li>
+        </ul>
+    </nav>
+<!--FORMA BELOW-->
+    <div class="register-page">
+        <div class="forma">
+            <form action="" name="formfill" onsubmit="return validation()">
+                <h2>REGJISTROHU</h2>
+                <p id="result"></p>
+                <div class="inputet">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" name="Emri" placeholder="Emri">
+                </div>
+                <div class="inputet">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="text" name="Email" placeholder="Email Adresa">
+                </div>
+                <div class="inputet">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="password" name="Fjalekalimi" placeholder="Fjalekalimi">
+                </div>
+                <div class="inputet">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="password" name="Konfirmimi" placeholder="Konfirmo Fjalekalimin">
+                </div>
+                <div class="butoni">
+                    <input type="submit" class="butoni" value="Regjistrohu">
+                </div>
+                <div class="grupi">
+                    <span class="teksti-linkut">Keni nje llogari?</span>
+                    <span><a href="login.html" class="linku">Kycuni</a></span>
+                </div>
+            </form>
+        </div>
+
+        <div class="popup" id="popup">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <h2>Ju Faleminderit!</h2>
+            <p>Regjistrimi juaj ishte i suksesshem.</p>
+            <a href="#"><button onclick="closePopup()">OK</button></a>
+        </div>
+    </div>
+<!--FORMA ABOVE-->>
+    <section class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>56 Muharrem Fejza, Prishtine</p>
+                <p>Email: info@travel.com</p>
+                <p>Phone: +383 44-123-456</p>
+            </div>
+    
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo" style="width: 100px; height: auto;">
+            </div>
+    
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/fb.png" alt="FaceBook" width="32" height="32"></a></li>
+                    <li><a href="https://www.x.com" target="_blank" rel="noopener"><img src="images/x.jpg" alt="X" width="32" height="32"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="images/ig.jpg" alt="Instagram" width="32" height="32"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="register.js"></script>
+</body>
+
+</html>

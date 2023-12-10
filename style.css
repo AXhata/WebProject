@@ -242,6 +242,7 @@ p {
     align-items: center;
     padding: 20px;
     background: #49495d;
+    width: 100%;
     text-align: center;
 }
 
@@ -306,7 +307,8 @@ p {
 }
 
 #overlay{
-    width: 100%;
+    
+    width: 40%;
     height: 100%;
     position: fixed;
     

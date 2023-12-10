@@ -307,10 +307,9 @@ p {
 }
 
 #overlay{
-    
-    width: 40%;
-    height: 100%;
-    position: fixed;
+    width: 45%;
+    height: 110%;
+    position: static;
     
 }
 form{

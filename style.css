@@ -110,6 +110,9 @@ header {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 15px;
 }
 
 .row .col {
@@ -118,11 +121,14 @@ header {
     align-items: center;
     flex: 1;
     margin: 0 10px;
+    
 }
 
 .events .row {
-    display: flex;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 15px;
+
 }
 
 h4 {
@@ -299,6 +305,8 @@ p {
     margin: 20px auto;
 }
 
+
+
 @media only screen and (max-width: 850px) {
     .menu-btn {
         display: block;
@@ -343,3 +351,4 @@ p {
         margin: 20px 0;
     }
 }
+

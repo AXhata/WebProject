@@ -242,7 +242,7 @@ p {
     align-items: center;
     padding: 20px;
     background: #49495d;
-    width: 100%;
+    width: fit-content;
     text-align: center;
 }
 

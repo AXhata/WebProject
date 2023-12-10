@@ -7,59 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <img src="images/logo.jpg" alt="logo" style="width: 100px; height:100px;">
-        <ul class="nav-links">
-            <li><a href="index.html"><b>Ballina</b></a></li>
-            <li><a href="destinacionet.html"><b>Destinacionet</b></a></li>
-            <li><a href="kontakti.html"><b>Kontakti</b></a></li>
-            <li class="ctn"><a href="login.html"><b>Kyçu | Regjistrohu</b></a></li>
-        </ul>
-        <img src="images/nyc.jpg" alt="" class="menu-btn">
-    </nav>
-    
+    <!-- Header Section -->
     <header>
+        <nav class="navbar">
+            <img src="images/logo.jpg" alt="logo" style="width: 100px; height: 100px;">
+            <ul class="nav-links">
+                <li><a href="index.html">Ballina</a></li>
+                <li><a href="destinacionet.html">Destinacionet</a></li>
+                <li><a href="kontakti.html">Kontakti</a></li>
+                <li class="ctn"><a href="login.html">Kyçu | Regjistrohu</a></li>
+            </ul>
+        </nav>
+
         <div id="overlay">
             <form onsubmit="event.preventDefault(); validateForm();">
                 <h1>Na Kontaktoni</h1>
-    
+
                 <label for="name">Emri</label>
-                <input type="text" id="name" placeholder="Your name ">
+                <input type="text" id="name" placeholder="Your name">
                 <small class="error"></small>
-    
+
                 <label for="email">Emaili</label>
-                <input type="text" id="email" placeholder="Your email ">
+                <input type="text" id="email" placeholder="Your email">
                 <small class="error"></small>
-    
+
                 <label for="message">Mesazhi</label>
-                <textarea type="text" id="message" placeholder="Your message " rows="6"></textarea>
+                <textarea id="message" placeholder="Your message" rows="6"></textarea>
                 <small class="error"></small>
-    
+
                 <div class="center">
                     <input type="submit" value="Send message">
                     <p id="success"></p>
                 </div>
-    
             </form>
         </div>
     </header>
-   
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="destinacionet.html">Destinacionet</a>
-        <a href="kontakti.html">Kontakti</a>
-        <a href="login.html">Kyçu | Regjistrohu</a>
-    </nav>
- <!--E PA PERFUNDUME BELOW-->
-    <section>
-        <h2></h2>
-        <p></p>
-    </section>
-
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; </p>
+        <p>&copy; 2023 Travel Explorer. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
